@@ -1,4 +1,4 @@
 docker-vertx
 ============
 
-docker vert.x project dockerfile/java
+docker vert.x project based on dockerfile/java
