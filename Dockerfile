@@ -1,11 +1,13 @@
 #
 # Vert.x Dockerfile
 #
-# https://github.com/dockerfile/java
+# https://github.com/muraken720/docker-vertx
 #
 
 # Pull base image.
 FROM dockerfile/java
+
+MAINTAINER Kenichiro Murata
 
 # Install Vert.x
 RUN apt-get install wget --no-install-recommends
